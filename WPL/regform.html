@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Registration Form</h1>
+    <form action="">
+        <table border="1" align="center">
+            <tr>
+            <th><label for="course">Select Course:</label></th>
+            <td>
+                <select id="course" name="course" required>
+                    <option value="BA">BA</option>
+                    <option value="BSc">BSc</option>
+                    <option value="BCA">BCA</option>
+                </select>
+            </td>
+        </tr>
+            <tr>
+                <td><b>Name:</b></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td ><b >Gender:</b></td>
+                <td><input type="radio" name="gender" >Female<input type="radio" name="gender">Male</td>
+                    
+            </tr>
+            <tr>
+                <td><b>DOB:</b></td>
+                <td><input type="date"required></td>
+            </tr>
+            <tr>
+                <td><b>Address:</b></td>
+                
+                <td><textarea rows="3"></textarea ></td> 
+            </tr>
+            <tr>
+                <td><b>Phone:</b></td>
+                <td><input type="number" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><b>Guardian:</b></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><b>Hobbies:</b></td>
+                <td><input type="checkbox">Movie<input type="checkbox">Music<input type="checkbox">Dance<br>
+                    <input type="checkbox">Game<input type="checkbox">Drawing</td>
+            </tr>
+            <TR>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">SUBMIT</button>
+                    <button type="reset">RESET</button>
+                </td>
+            </TR>
+        </table>
+    </form>
+</body>
